@@ -26,7 +26,6 @@ body {
     top: 0px;
 }
 
-
 #navbar::before {
     content: "";
     background-color: #ccc9c9;
@@ -87,53 +86,17 @@ body {
     grid-gap: 1rem;
 }
 
-.grid #a {
-    grid-column: ;
-}
-
-.grid #b {
-    grid-column: ;
-}
-
-.grid #c {
-    grid-column: ;
-}
-
 .grid #d {
     grid-column: 1/ span 2;
 }
 
-.grid #e {
-    grid-row: 3/span 2 ;
-}
-
-.grid #f {
-    grid-column: ;
-}
-
-.grid #g {
-    grid-column: ;
-}
-
-.grid #i {
-    grid-column: ;
-}
-
-.grid #j {
-    grid-column: ;
-}
-
-.grid #k {
-    grid-column: ;
-}
-
 .grid #l {
-    grid-column: ;
+    grid-column: 1/ span 2;
 }
 
-.grid #m {
-    grid-column: ;
-}
+/* .grid #j{
+    grid-column: 1/ span 2;
+} */
 
 .gallery {
     height: auto;
@@ -148,8 +111,99 @@ body {
     width: 27vw;
 }
 
- #d img {
-    height: 18rem;
+img:hover {
+    transform: scale(1.2);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+#d img {
+    height: 20rem;
+    width: 36rem;
+    margin-left: 1em;
+}
+
+#e img {
+    float: right;
+    height: 100%;
+    width: 138%;
+}
+
+#l img {
+    height: 20rem;
     width: 32rem;
-    margin-left: 11em;
-} 
+    margin-left: 1em;
+}
+
+#m img {
+    height: 100%;
+    float: right;
+    width: 150%;
+}
+
+#i img {
+    height: 90%;
+    float: left;
+    width: 110%;
+}
+
+#j img {
+    height: 100%;
+    width: 86%;
+    margin-left: -5px;
+}
+
+#k img {
+    height: 88%;
+    float: right;
+    width: 124%;
+}
+
+#contact {
+    position: relative;
+    /* margin-top: 150%; */
+}
+
+.h-primary {
+    font-family: 'Alata', sans-serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    margin-top: auto;
+    display: block;
+    font-size: 18px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255, 0.42);
+}
+
+.contactme-center {
+    margin-top: 130%;
+    color: #ffffffc7;
+    background-color: #ccc9c914;
+    justify-content: center;
+}
+
+.contactme-center ul {
+    display: flex;
+    margin-left: 23%;
+}
+
+.contactme-center ul li {
+    list-style: none;
+}
+
+.contactme-center ul li img {
+    display: block;
+    height: 100px;
+    width: 100px;
+    padding: 5em;
+    margin: auto;
+    filter: invert();
+}
