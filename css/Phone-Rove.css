@@ -93,12 +93,12 @@ body [url] {
 #k img {
     height: 108%;
     width: 126%;
+    margin-right: 0px;
 }
 
 /* #a img{
     margin-left: 1rem;
 }
-
 #c img {
     margin-right: 1rem;
 } */
@@ -110,11 +110,12 @@ body [url] {
 .h-primary {
     font-family: 'Alata', sans-serif;
     font-size: 2rem;
-    padding: 12px;
+    padding: 23px;
 }
 
 .contactme-center {
-    margin-top: 63%;
+    margin-top: 21rem;
+    margin-bottom: 3rem;
     color: #ffffffc7;
     background-color: #ccc9c914;
     justify-content: center;
