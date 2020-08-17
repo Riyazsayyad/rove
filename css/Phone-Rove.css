@@ -22,7 +22,7 @@ body [url] {
 }
 
 #navbar ul li a {
-    font-size: 1em;
+    font-size: 1px;
     margin-left: 0rem;
     margin-right: -1rem;
     margin-top: 10%;
@@ -93,12 +93,12 @@ body [url] {
 #k img {
     height: 108%;
     width: 126%;
-    margin-right: 0px;
 }
 
 /* #a img{
     margin-left: 1rem;
 }
+
 #c img {
     margin-right: 1rem;
 } */
@@ -110,12 +110,11 @@ body [url] {
 .h-primary {
     font-family: 'Alata', sans-serif;
     font-size: 2rem;
-    padding: 55px;
+    padding: 12px;
 }
 
 .contactme-center {
-   margin-top: 321px;
-    margin-bottom: 43px;
+    margin-top: 63%;
     color: #ffffffc7;
     background-color: #ccc9c914;
     justify-content: center;
@@ -123,8 +122,7 @@ body [url] {
 
 .contactme-center ul {
     display: flex;
-    margin-left: -1rem;
-    margin-bottom: 10px;
+    margin-left: -2rem;
 }
 
 .contactme-center ul li {
