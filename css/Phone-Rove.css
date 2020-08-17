@@ -93,6 +93,7 @@ body [url] {
 #k img {
     height: 108%;
     width: 126%;
+    margin-right: 0px;
 }
 
 /* #a img{
@@ -110,7 +111,7 @@ body [url] {
 .h-primary {
     font-family: 'Alata', sans-serif;
     font-size: 2rem;
-    padding: 12px;
+    padding: 23px;
 }
 
 .contactme-center {
