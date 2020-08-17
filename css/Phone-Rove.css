@@ -114,7 +114,8 @@ body [url] {
 }
 
 .contactme-center {
-    margin-top: 76%;
+    margin-top: 21rem;
+    margin-bottom: 3rem;
     color: #ffffffc7;
     background-color: #ccc9c914;
     justify-content: center;
