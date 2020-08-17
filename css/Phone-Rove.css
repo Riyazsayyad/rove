@@ -116,11 +116,11 @@ body [url] {
 }
 
 .contactme-center {
-        margin-top: 97%;
+        margin-top: 45vh;
     color: #ffffffc7;
     background-color: #ccc9c914;
     justify-content: center;
-    margin-bottom: 20%;
+    margin-bottom: 15vh;
 }
 
 .contactme-center ul {
