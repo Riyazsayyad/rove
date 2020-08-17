@@ -114,8 +114,8 @@ body [url] {
 }
 
 .contactme-center {
-    margin-top: 21rem;
-    margin-bottom: 3rem;
+    margin-top: 25em;
+    margin-bottom: 5em;
     color: #ffffffc7;
     background-color: #ccc9c914;
     justify-content: center;
@@ -123,7 +123,8 @@ body [url] {
 
 .contactme-center ul {
     display: flex;
-    margin-left: -2rem;
+    margin-left: -1rem;
+    margin-bottom: 10px;
 }
 
 .contactme-center ul li {
